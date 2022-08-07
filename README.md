@@ -1,26 +1,16 @@
 # Code-Space
-### A Full stack Web application for online programming.
+## A Full stack Web application for online programming.
 
-Several browser based code editors such as Ace, CodeMirror, Monaco etc. provide the ability to embed a full-featured code editor in your web page. However, if you just need a simple editor with syntax highlighting without any of the extra features, they can be overkill as they don't usually have a small bundle size footprint. This library aims to provide a simple code editor with syntax highlighting support without any of the extra features, perfect for simple embeds and forms where users can submit code.
+### Several browser based code editors such as CodeMirror, Monaco etc. provide the ability to embed a full-featured code editor in your web page. It is a real-time editor where at a time more than 2 people can code on it made using React.Js and Node.Js, Socket.io. It can compile code on a web app with standard input and output the user can add custom inputs to their code snippets. A user lands on the web application and can select their preferred programming languages. You can also change the theme of the editor from a list of available themes. 
 
 # Feature List
-- [x]  Add, remove, resize, reorder, clone, copy/paste and drag/drop elements
-- [x]  Add, remove, resize, reorder, clone, copy/paste and drag/drop elements
-- [x]  Add, remove, resize, reorder, clone, copy/paste and drag/drop elements
-- [x]  Add, remove, resize, reorder, clone, copy/paste and drag/drop elements
-- [x]  Add, remove, resize, reorder, clone, copy/paste and drag/drop elements
-
-Modular syntax highlighting with third party library
-Indent line or selected text by pressing tab key, with customizable indentation
-Automatic indent on new lines
-Wrap selected text in parens, brackets, or quotes
-Undo whole words instead of letter by letter
-Accessible, use Ctrl+Shift+M (Mac) / Ctrl+M to toggle capturing tab key
+- [x]  Select Different Programming Languages.
+- [x]  Add More than 2 Person
+- [x]  Select Differnt Themes
+- [x] Compilation and execution are supported 
+- [x] The proper Output or error message will be displayed.
 
 
-Five programming languages are supported, including c, c++, java, javascript and python.
-Syntax highlighting for different languages.
-Compilation and execution are supported. The proper result or error message will be displayed.
 
 ## Installation
 ```
@@ -32,14 +22,26 @@ yarn add react-Code-Space-
 ## Getting Started
 ```
 Clone this Project with git clone https://github.com/Alam9835/react-Code-Space-.git
+
 Install dependencies with npm install or yarn
+
 Run the App with npm start or yarn start
-Open your web browser to http://localhost:4000
+
+Open your web browser to http://localhost:3000
 ```
 # Screenshots
 
 
+## You can login into the code editor using Room-Id and UserName
 
+![c2](https://user-images.githubusercontent.com/88643897/183297894-d3f47d86-580d-44fb-9481-976bca464f43.PNG)
+
+
+![c5](https://user-images.githubusercontent.com/88643897/183297920-be021126-0305-4da5-8e0a-0b9e63008d78.PNG)
+
+## Output Console
+
+![c6](https://user-images.githubusercontent.com/88643897/183297927-27118b0a-351b-433a-a677-324aafd7c268.PNG)
 
 
 # Getting Started with Create React App
